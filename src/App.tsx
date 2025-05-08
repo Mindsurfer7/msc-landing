@@ -26,6 +26,7 @@ export default function App() {
        <div> <h1 className="text-xl md:text-2xl text-zinc-800 font-semibold mb-2 max-w-2xl text-center">
           Порядок в мыслях. Прогресс в жизни
         </h1>
+        <h2>(прототип лендинга)</h2>
         <p className="text-xs text-zinc-500 mb-2 text-center max-w-lg">
           Дайте отпуск мыслям, создав порядок в голове.<br />
           Если вы застряли, испытываете тревогу о будущем, не уверены в решении — Mindsurfing Club поможет узнать себя, собрать мысли в порядок и действовать с уверенностью.
