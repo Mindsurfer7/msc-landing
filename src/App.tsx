@@ -21,7 +21,9 @@ export default function App() {
       </header>
       {/* Hero Section */}
       <main className="w-full flex flex-col items-center mt-8 px-4">
-        <h1 className="text-xl md:text-2xl text-zinc-800 font-semibold mb-2 max-w-2xl text-center">
+        <div className='flex'>
+
+       <div> <h1 className="text-xl md:text-2xl text-zinc-800 font-semibold mb-2 max-w-2xl text-center">
           Порядок в мыслях. Прогресс в жизни
         </h1>
         <p className="text-xs text-zinc-500 mb-2 text-center max-w-lg">
@@ -30,8 +32,10 @@ export default function App() {
         </p>
         <button className="mt-2 mb-4 px-4 py-2 bg-yellow-300 text-xs rounded-md font-semibold shadow hover:bg-yellow-200 transition">
           Получить бесплатно
-        </button>
-        <div className="flex items-center gap-2 mb-2">
+        </button></div>
+
+<div>
+<div className="flex items-center gap-2 mb-2">
           <button aria-label="play" className="w-7 h-7 rounded-full bg-zinc-100 flex items-center justify-center text-zinc-500">
             <svg width="12" height="14" fill="currentColor" viewBox="0 0 14 14">
               <polygon points="2,2 12,7 2,12"/>
@@ -48,6 +52,11 @@ export default function App() {
           <span className="font-handwritten text-3xl text-red-300" style={{ fontFamily: 'Indie Flower, cursive' }}>24/7</span>
           <div className="w-[340px] h-28 bg-zinc-100 rounded-md flex items-center justify-center">{/* placeholder for image/content */}</div>
         </div>
+</div>
+
+        </div>
+       
+   
       </main>
       {/* Begin Wavy Section with Tag Cloud and Feature Cards */}
       <section className="relative w-full mt-8">
