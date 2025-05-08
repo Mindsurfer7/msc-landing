@@ -36,7 +36,7 @@ export default function App() {
 
 <div>
 <div className="flex items-center gap-2 mb-2">
-          <button aria-label="play" className="w-7 h-7 rounded-full bg-zinc-100 flex items-center justify-center text-zinc-500">
+          {/* <button aria-label="play" className="w-7 h-7 rounded-full bg-zinc-100 flex items-center justify-center text-zinc-500">
             <svg width="12" height="14" fill="currentColor" viewBox="0 0 14 14">
               <polygon points="2,2 12,7 2,12"/>
             </svg>
@@ -46,7 +46,7 @@ export default function App() {
               <rect x="0" y="0" width="3" height="14"/>
               <rect x="5" y="0" width="3" height="14"/>
             </svg>
-          </button>
+          </button> */}
         </div>
         <div className="flex items-center gap-4">
           <span className="font-handwritten text-3xl text-red-300" style={{ fontFamily: 'Indie Flower, cursive' }}>24/7</span>
